@@ -1,0 +1,20 @@
+export const dynamic = 'force-dynamic';
+
+import { Suspense } from 'react';
+
+import PropertiesView from '@/components/properties/properties-view';
+
+export default function PropertiesPage() {
+  const imagesDomain = process.env.NEXT_IMAGES_URL || '';
+  return (
+    <Suspense
+      fallback={
+        <div className="bg-background flex min-h-screen items-center justify-center">
+          Loading...
+        </div>
+      }
+    >
+      <PropertiesView imagesDomain={imagesDomain} />
+    </Suspense>
+  );
+}

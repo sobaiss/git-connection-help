@@ -1,0 +1,51 @@
+{
+  "name": "slt-web",
+  "description": "SvelteKit application",
+  "author": {
+    "name": "Bairing Djonkamla",
+    "email": "bairing.djonkamla@gmail.com"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@heroui/react": "^2.8.2",
+    "@heroui/theme": "^2.4.20",
+    "@heroui/toast": "^2.0.17",
+    "@internationalized/date": "^3.10.0",
+    "@tailwindcss/postcss": "^4.1.11",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.13.2",
+    "eslint": "^9.33.0",
+    "eslint-config-next": "^15.4.6",
+    "framer-motion": "^12.23.12",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.544.0",
+    "next": "latest",
+    "next-auth": "^5.0.0-beta.30",
+    "postcss": "^8.4.49",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "^4.1.11",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "5.2.2",
+    "zod": "4.0.17"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/react": "18.3.26",
+    "@typescript-eslint/eslint-plugin": "^8.46.4",
+    "@typescript-eslint/parser": "^8.46.4",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.7.1"
+  }
+}
