@@ -1478,7 +1478,7 @@ export default function MonCompteView({ imagesDomain }: { imagesDomain: string }
                           endContent={
                             <button
                               type="button"
-                              onPress={() =>
+                              onClick={() =>
                                 setShowPasswords((prev) => ({ ...prev, current: !prev.current }))
                               }
                               className="text-default-400 hover:text-default-600 transition-colors"
@@ -1509,7 +1509,7 @@ export default function MonCompteView({ imagesDomain }: { imagesDomain: string }
                           endContent={
                             <button
                               type="button"
-                              onPress={() =>
+                              onClick={() =>
                                 setShowPasswords((prev) => ({ ...prev, new: !prev.new }))
                               }
                               className="text-default-400 hover:text-default-600 transition-colors"
@@ -1542,7 +1542,7 @@ export default function MonCompteView({ imagesDomain }: { imagesDomain: string }
                           endContent={
                             <button
                               type="button"
-                              onPress={() =>
+                              onClick={() =>
                                 setShowPasswords((prev) => ({ ...prev, confirm: !prev.confirm }))
                               }
                               className="text-default-400 hover:text-default-600 transition-colors"
